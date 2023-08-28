@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/x-icon" href=".././src/images/logo.svg" />
+        <link rel="stylesheet" href=".././dist/styles.css" />
+        <meta name="author" content="Marcin Suski" />
+        <meta
+            name="description"
+            content="Marcin Suski - Frontend web developer, Polska, Kraków, @:suski.marcin@gmail.com. "
+        />
+        <meta
+            name="keywords"
+            content="Marcin Suski, developer, programista, frontend, front-end, frontend developer, strony internetowe"
+        />
+        <meta name="robots" content="all" />
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-NHSJ5XJ6BR"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-NHSJ5XJ6BR");
+        </script>
+        <script defer src=".././src/script.js"></script>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <meta property="og:title" content="Marcin Suski - web developer" />
+        <meta property="og:url" content="https://marcinsuski.pl" />
+        <meta
+            property="og:image"
+            content="https://marcinsuski/pl/src/images/projects/portfolio.JPG"
+        />
+        <title>Marcin Suski - web developer</title>
+    </head>
+    <body>
+        <button class="nav__toggle">
+            <span class="hamburger"></span>
+        </button>
+        <div class="wrapper">
+            <header id="header">
+                <div class="logo">
+                    <img src=".././src/images/logo-g.svg" alt="logo" />
+                </div>
+                <div class="navbar">
+                    <div class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#about">O mnie</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#projects">Projekty</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#contact">Kontakt</a>
+                            </li>
+                        </ul>
+                        <button class="resume">
+                            <a
+                                href=".././src/cv_marcin_suski_pl.pdf"
+                                target="_blank"
+                                >CV (pdf)</a
+                            >
+                        </button>
+                        <div class="language">
+                            <a
+                                href="../index.html"
+                                rel="alternate"
+                                hreflang="EN"
+                                >EN</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="main">
+                <div class="main-wrapper">
+                    <div class="title">
+                        <div class="welcome">
+                            <p>Cześć, nazywam się</p>
+                            <h1>Marcin Suski.</h1>
+                            <p>
+                                Jestem web developerem z Polski.<br />
+                                Jeśli wszedłeś tu, bo chcesz ze mną pracować, po
+                                prostu
+                                <a href="#contact">skontaktuj się</a> :)<br />
+                                Jeśli jeszcze nie wiesz czego się spodziewać,
+                                spójrz czym się zajmuję.
+                            </p>
+                        </div>
+                        <button class="contact-me">
+                            <a href="#projects">moje projekty</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="arrow-wrapper">
+                    <div class="arrow">
+                        <a href="#about"
+                            ><svg
+                                width="87"
+                                height="65"
+                                viewBox="0 0 87 65"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6.54054 25.9104C4.83414 24.5074 2.31345 24.7533 0.910413 26.4597C-0.492623 28.1661 -0.246702 30.6868 1.45969 32.0898L40.2803 64.009C41.1785 64.7475 42.3023 65.0292 43.37 64.8814C44.4377 65.0292 45.5615 64.7475 46.4597 64.009L85.2803 32.0898C86.9867 30.6868 87.2326 28.1661 85.8296 26.4597C84.4265 24.7533 81.9058 24.5074 80.1994 25.9104L43.37 56.1924L6.54054 25.9104ZM6.54054 0.910429C4.83414 -0.492601 2.31345 -0.246683 0.910413 1.45971C-0.492623 3.16611 -0.246702 5.6868 1.45969 7.08983L40.2803 39.009C41.1785 39.7475 42.3023 40.0292 43.37 39.8814C44.4377 40.0292 45.5615 39.7475 46.4597 39.009L85.2803 7.08983C86.9867 5.6868 87.2326 3.16611 85.8296 1.45971C84.4265 -0.246683 81.9058 -0.492601 80.1994 0.910429L43.37 31.1924L6.54054 0.910429Z"
+                                    fill=" hsl(193, 100%, 78%)"
+                                /></svg
+                        ></a>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="card about-me fade-in">
+                    <div class="about-me__content">
+                        <h2>O mnie</h2>
+                        <p>
+                            Cześć, jestem Marcin! 👋 <br />
+                            <br />
+                            Jestem frontend web developerem specjalizującym się
+                            w JavaScript/TypeScript. Pracuję głównie w React.js,
+                            ale zawsze jestem otwarty na naukę i rozwój mojego
+                            warsztatu.. <br />
+                            Uważam się za 'problem-solvera'. Przez wiele lat
+                            Pracowałem jako project manager i dzięki temu
+                            łatwiej mi jako programiście komunikować się z
+                            klientami i rozumieć ich potrzeby. <br />
+                            Rozwój to moja siła napędowa i nieustannie szukam
+                            nowych rozwiązań i okazji do poprawy we wszystkim co
+                            robię.
+                        </p>
+                    </div>
+                </div>
+                <div class="hero fade-in">
+                    <img
+                        src=".././src/images/my-photo.jpg"
+                        alt="that's me"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+            <section class="skills">
+                <div class="slider__container fade-in">
+                    <!-- slider titles start -->
+                    <div class="slider__title">
+                        <span class="slider__title-item active" id="languages"
+                            >Języki</span
+                        >
+                        <span class="slider__title-item" id="frameworks"
+                            >Biblioteki</span
+                        >
+                        <span class="slider__title-item" id="tools"
+                            >Narzędzia</span
+                        >
+                        <span class="slider__title-item" id="other">Inne</span>
+                    </div>
+                    <!-- slider titles end -->
+                    <div class="card slider-content">
+                        <div class="slider-content-wrapper">
+                            <!-- radio buttons starts-->
+                            <input
+                                type="radio"
+                                name="radio-btn"
+                                class="radio-btn"
+                                id="radio1"
+                            />
+                            <input
+                                type="radio"
+                                name="radio-btn"
+                                class="radio-btn"
+                                id="radio2"
+                            />
+                            <input
+                                type="radio"
+                                name="radio-btn"
+                                class="radio-btn"
+                                id="radio3"
+                            />
+                            <input
+                                type="radio"
+                                name="radio-btn"
+                                class="radio-btn"
+                                id="radio4"
+                            />
+                            <!-- radio buttons ends-->
+                            <!-- slides start -->
+                            <div class="slider-content__item item-1">
+                                <img
+                                    src="../src/images/javascript-horizontal.svg"
+                                    alt="javascript"
+                                />
+                                <img
+                                    src="../src/images/typescript.svg"
+                                    alt="typescript"
+                                />
+                                <img
+                                    src="../src/images/nodejs.svg"
+                                    alt="node.js"
+                                    width="150px"
+                                />
+                                <img
+                                    src="../src/images/python.svg"
+                                    alt="python"
+                                />
+                                <img src="../src/images/html5.svg" alt="html" />
+                                <img src="../src/images/css3.svg" alt="css" />
+                                <img src="../src/images/sass.svg" alt="sass" />
+                            </div>
+                            <div class="slider-content__item item-2">
+                                <img
+                                    src="../src/images/react.svg"
+                                    alt="react"
+                                />
+                                <img
+                                    src="../src/images/nextjs.svg"
+                                    alt="next"
+                                    width="150px"
+                                />
+                                <img
+                                    src="../src/images/material-ui.svg"
+                                    alt="MUI"
+                                />
+                                <img
+                                    src="../src/images/tailwindcss.svg"
+                                    alt="tailwindcss"
+                                />
+                                <img
+                                    src="../src/images/redux.svg"
+                                    alt="redux"
+                                />
+                            </div>
+                            <div class="slider-content__item item-3">
+                                <img src="../src/images/git.svg" alt="git" />
+                                <img
+                                    src="../src/images/mysql.svg"
+                                    alt="mysql"
+                                />
+                                <img
+                                    src="../src/images/mongodb.svg"
+                                    alt="mysql"
+                                />
+                                <img
+                                    src="../src/images/figma.svg"
+                                    alt="figma"
+                                />
+                            </div>
+                            <div class="slider-content__item item-4">
+                                <div class="other-skills">
+                                    <img
+                                        src="../src/images/skill-problem.svg"
+                                        alt="problem-solver"
+                                    />
+                                    <span>Lubiący wyzwania</span>
+                                </div>
+                                <div class="other-skills">
+                                    <img
+                                        src="../src/images/skill-list.svg"
+                                        alt="detail-oriented"
+                                    />
+                                    <span>Uwaga na detale</span>
+                                </div>
+                                <div class="other-skills">
+                                    <img
+                                        src="../src/images/skill-analytical.svg"
+                                        alt="analytical thinking"
+                                    />
+                                    <span>Myślenie strategiczne</span>
+                                </div>
+                                <div class="other-skills">
+                                    <img
+                                        src="../src/images/skill-time.svg"
+                                        alt="planning"
+                                    />
+                                    <span>Zarządzanie czasem</span>
+                                </div>
+                                <div class="other-skills">
+                                    <img
+                                        src="../src/images/skill-team.svg"
+                                        alt="team-player"
+                                    />
+                                    <span>Relacje międzyludzkie</span>
+                                </div>
+                                <div class="other-skills">
+                                    <img
+                                        src="../src/images/skill-project.svg"
+                                        alt="project management"
+                                    />
+                                    <span>Zarządzanie projektowe</span>
+                                </div>
+                                <!-- slides end -->
+
+                                <!-- auto navigation end -->
+                            </div>
+                            <!-- auto navigation start -->
+                            <div class="navigation-auto">
+                                <div class="auto-btn auto-btn1"></div>
+                                <div class="auto-btn auto-btn2"></div>
+                                <div class="auto-btn auto-btn3"></div>
+                                <div class="auto-btn auto-btn4"></div>
+                            </div>
+
+                            <!-- manual navigation start -->
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                            </div>
+                            <!-- manual navigation end -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-projects" id="projects">
+                <div class="title">
+                    <h3>Przykładowe projekty:</h3>
+                </div>
+                <!-- cryptocurrency tracker -->
+                <div class="card project__container fade-in">
+                    <div class="project__content">
+                        <div class="content__title">
+                            <div class="content__title-text">
+                                <h4>Crypto Coin Tracker</h4>
+                            </div>
+                            <div class="content__title-icons">
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://github.com/marcinsuski/cryptocurrency-tracker"
+                                        target="_blank"
+                                        ><svg
+                                            width="22"
+                                            height="22"
+                                            viewBox="0 0 30 30"
+                                            id="github"
+                                        >
+                                            <path
+                                                d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://ms-crypto-coin-tracker.netlify.app/"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <g clip-path="url(#clip0_78_11)">
+                                                <path
+                                                    d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_78_11">
+                                                    <rect
+                                                        width="30"
+                                                        height="30"
+                                                    />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__main-text">
+                            Aplikacja webowa z listą kryptowalut opartą na
+                            kapitalizacji rynkowej wraz z indywidualnymi danymi
+                            i wykresami danej kryptowaluty. Stworzona przy
+                            użyciu React i Material UI oraz CSS modules.
+                        </div>
+                        <div class="content__tags">
+                            <div class="tag">React</div>
+                            <div class="tag">Material UI</div>
+                            <div class="tag">API</div>
+                            <div class="tag">Chart.js</div>
+                        </div>
+                    </div>
+                    <div class="project__preview">
+                        <div class="project__preview-container">
+                            <img
+                                src=".././src/images/projects/crypto_coin_tracker.JPG"
+                                alt="Crypto Coin Tracker"
+                                loading="lazy"
+                            />
+
+                            <div
+                                class="project__preview-container-buttons buttons"
+                            >
+                                <button>
+                                    <a
+                                        href="https://ms-crypto-coin-tracker.netlify.app/"
+                                        target="_blank"
+                                        >Zobacz online</a
+                                    >
+                                </button>
+                                <button>
+                                    <a
+                                        href="https://github.com/marcinsuski/cryptocurrency-tracker"
+                                        target="_blank"
+                                        >kod</a
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MyWallet -->
+                <div class="card project__container fade-in">
+                    <div class="project__content">
+                        <div class="content__title">
+                            <div class="content__title-text">
+                                <h4>MyWallet</h4>
+                            </div>
+                            <div class="content__title-icons">
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://github.com/marcinsuski/mywallet"
+                                        target="_blank"
+                                        ><svg
+                                            width="22"
+                                            height="22"
+                                            viewBox="0 0 30 30"
+                                            id="github"
+                                        >
+                                            <path
+                                                d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://ms-mywallet.netlify.app/"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <g clip-path="url(#clip0_78_11)">
+                                                <path
+                                                    d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_78_11">
+                                                    <rect
+                                                        width="30"
+                                                        height="30"
+                                                    />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__main-text">
+                            Aplikacja webowa (SPA) pozwalająca śledzić dochody i
+                            wydatki użytkowników w ujęciu miesięcznym. Wykresy
+                            przedstawiają podział kategorii przychodów/wydatków.
+                        </div>
+                        <div class="content__tags">
+                            <div class="tag">Frontend</div>
+                            <div class="tag">React</div>
+                            <div class="tag">MU</div>
+                            <div class="tag">Chart.js</div>
+                            <div class="tag">RWD</div>
+                        </div>
+                    </div>
+                    <div class="project__preview">
+                        <div class="project__preview-container">
+                            <img
+                                src=".././src/images/projects/mywallet.JPG"
+                                alt="MyWallet"
+                                loading="lazy"
+                            />
+
+                            <div
+                                class="project__preview-container-buttons buttons"
+                            >
+                                <button>
+                                    <a
+                                        href="https://ms-mywallet.netlify.app/"
+                                        target="_blank"
+                                        >Zobacz online</a
+                                    >
+                                </button>
+                                <button>
+                                    <a
+                                        href="https://github.com/marcinsuski/mywallet"
+                                        target="_blank"
+                                        >kod</a
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- dalle clone -->
+                <div class="card project__container fade-in">
+                    <div class="project__content">
+                        <div class="content__title">
+                            <div class="content__title-text">
+                                <h4>Klon DALLE</h4>
+                            </div>
+                            <div class="content__title-icons">
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://github.com/marcinsuski/dalle_clone"
+                                        target="_blank"
+                                        ><svg
+                                            width="22"
+                                            height="22"
+                                            viewBox="0 0 30 30"
+                                            id="github"
+                                        >
+                                            <path
+                                                d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://ms-dalle.netlify.app/"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <g clip-path="url(#clip0_78_11)">
+                                                <path
+                                                    d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_78_11">
+                                                    <rect
+                                                        width="30"
+                                                        height="30"
+                                                    />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__main-text">
+                            Pełna aplikacja (fullstack - MERN) oparta na OpenAI
+                            API, umożliwiająca tworzenie, udostępnianie i
+                            pobieranie obrazów generowanych przez AI (DALL-E) na
+                            podstawie wpisanego tekstu.
+                        </div>
+                        <div class="content__tags">
+                            <div class="tag">Fullstack</div>
+                            <div class="tag">REACT</div>
+                            <div class="tag">MERN</div>
+                            <div class="tag">Open AI</div>
+                            <div class="tag">Tailwind css</div>
+                        </div>
+                    </div>
+                    <div class="project__preview">
+                        <div class="project__preview-container">
+                            <img
+                                src=".././src/images/projects/dalle_clone.JPG"
+                                alt="Dalle Clone"
+                                loading="lazy"
+                            />
+
+                            <div
+                                class="project__preview-container-buttons buttons"
+                            >
+                                <button>
+                                    <a
+                                        href="https://ms-dalle.netlify.app/"
+                                        target="_blank"
+                                        >Zobacz online</a
+                                    >
+                                </button>
+                                <button>
+                                    <a
+                                        href="https://github.com/marcinsuski/dalle_clone"
+                                        target="_blank"
+                                        >kod</a
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- finance-dashboard -->
+                <div class="card project__container fade-in">
+                    <div class="project__content">
+                        <div class="content__title">
+                            <div class="content__title-text">
+                                <h4>Dashboard finansowy</h4>
+                            </div>
+                            <div class="content__title-icons">
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://github.com/marcinsuski/finance-dashboard"
+                                        target="_blank"
+                                        ><svg
+                                            width="22"
+                                            height="22"
+                                            viewBox="0 0 30 30"
+                                            id="github"
+                                        >
+                                            <path
+                                                d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="content__title-icon">
+                                    <a
+                                        href="https://ms-finance-dashboard.vercel.app/"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <g clip-path="url(#clip0_78_11)">
+                                                <path
+                                                    d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_78_11">
+                                                    <rect
+                                                        width="30"
+                                                        height="30"
+                                                    />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__main-text">
+                            Fullstackowa aplikacja (MERN) z różnymi wykresami
+                            finansowymi oraz stroną z prognozami
+                            (machine-learning).
+                        </div>
+                        <div class="content__tags">
+                            <div class="tag">Fullstack</div>
+                            <div class="tag">REACT</div>
+                            <div class="tag">TypeScript</div>
+                            <div class="tag">MongoDB</div>
+                            <div class="tag">Redux-toolkit</div>
+                        </div>
+                    </div>
+                    <div class="project__preview">
+                        <div class="project__preview-container">
+                            <img
+                                src="../src/images/projects/finance-dashboard.JPG"
+                                alt="Dalle Clone"
+                                loading="lazy"
+                            />
+
+                            <div
+                                class="project__preview-container-buttons buttons"
+                            >
+                                <button>
+                                    <a
+                                        href="https://ms-finance-dashboard.vercel.app/"
+                                        target="_blank"
+                                        >Zobacz online</a
+                                    >
+                                </button>
+                                <button>
+                                    <a
+                                        href="https://github.com/marcinsuski/finance-dashboard"
+                                        target="_blank"
+                                        >kod</a
+                                    >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Other projects section  -->
+            <section class="other-projects">
+                <div class="title">
+                    <h3>Inne projekty:</h3>
+                </div>
+
+                <div class="projects__wrapper">
+                    <!-- project 1 start -->
+                    <div class="card project__container fade-in">
+                        <div class="project__content">
+                            <div class="content__title">
+                                <div class="content__title-icons">
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://github.com/marcinsuski/blog-nextjs"
+                                            target="_blank"
+                                            ><svg
+                                                width="22"
+                                                height="22"
+                                                viewBox="0 0 30 30"
+                                                id="github"
+                                            >
+                                                <path
+                                                    d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://ms-blog-nextjs.netlify.app/"
+                                            target="_blank"
+                                        >
+                                            <svg
+                                                viewBox="0 0 30 30"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <g
+                                                    clip-path="url(#clip0_78_11)"
+                                                >
+                                                    <path
+                                                        d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                    />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_78_11">
+                                                        <rect
+                                                            width="30"
+                                                            height="30"
+                                                        />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="content__title-text">
+                                    <h4>Szablon bloga w Next</h4>
+                                </div>
+                            </div>
+                            <div class="content__main-text">
+                                Szablon bloga wykonany w Next.js z dynamic
+                                routes, backendem w next.js i językiem markdown
+                                do tworzenia dobrze sformatowanych postów.
+                            </div>
+                            <div class="content__tags">
+                                <div class="tag">Fullstack</div>
+                                <div class="tag">Next.js</div>
+                                <div class="tag">CSS modules</div>
+                                <div class="tag">mongoDB</div>
+                                <div class="tag">RWD</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project__container fade-in">
+                        <div class="project__content">
+                            <div class="content__title">
+                                <div class="content__title-icons">
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://github.com/marcinsuski/food-ordering-app"
+                                            target="_blank"
+                                            ><svg
+                                                width="22"
+                                                height="22"
+                                                viewBox="0 0 30 30"
+                                                id="github"
+                                            >
+                                                <path
+                                                    d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://peaceful-clafoutis-38e7b9.netlify.app/"
+                                            target="_blank"
+                                        >
+                                            <svg
+                                                viewBox="0 0 30 30"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <g
+                                                    clip-path="url(#clip0_78_11)"
+                                                >
+                                                    <path
+                                                        d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                    />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_78_11">
+                                                        <rect
+                                                            width="30"
+                                                            height="30"
+                                                        />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="content__title-text">
+                                    <h4>Aplikacja do zamawiania</h4>
+                                </div>
+                            </div>
+                            <div class="content__main-text">
+                                Sztuczny sklep do zamawiania jedzenia zbudowany
+                                w React i Firebase, oparty na istniejącej
+                                restauracji. Umożliwia dodawanie pozycji do
+                                koszyka i zarządzanie koszykiem aż do złożenia
+                                zamówienia (fikcyjna bazy danych).
+                            </div>
+                            <div class="content__tags">
+                                <div class="tag">React</div>
+                                <div class="tag">CSS Modules</div>
+                                <div class="tag">Firebase</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project__container fade-in">
+                        <div class="project__content">
+                            <div class="content__title">
+                                <div class="content__title-icons">
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://github.com/marcinsuski/todo-app-react"
+                                            target="_blank"
+                                            ><svg
+                                                width="22"
+                                                height="22"
+                                                viewBox="0 0 30 30"
+                                                id="github"
+                                            >
+                                                <path
+                                                    d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://ms-todo-app-react.netlify.app/"
+                                            target="_blank"
+                                        >
+                                            <svg
+                                                viewBox="0 0 30 30"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <g
+                                                    clip-path="url(#clip0_78_11)"
+                                                >
+                                                    <path
+                                                        d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                    />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_78_11">
+                                                        <rect
+                                                            width="30"
+                                                            height="30"
+                                                        />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="content__title-text">
+                                    <h4>Lista zadań</h4>
+                                </div>
+                            </div>
+                            <div class="content__main-text">
+                                Aplikacja do listy zadań, z przełącznikiem
+                                darkmode/lightmode, filtrowaniem zadań według
+                                stanu i usuwaniem zakończonych zadań. Wykonane w
+                                React.js, TypeScript i Redux-Toolkit do
+                                zarządzania stanem.
+                            </div>
+                            <div class="content__tags">
+                                <div class="tag">HTML</div>
+                                <div class="tag">React</div>
+                                <div class="tag">TypeScript</div>
+                                <div class="tag">Redux-Toolkit</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project__container fade-in">
+                        <div class="project__content">
+                            <div class="content__title">
+                                <div class="content__title-icons">
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://github.com/marcinsuski/Dashboard"
+                                            target="_blank"
+                                            ><svg
+                                                width="22"
+                                                height="22"
+                                                viewBox="0 0 30 30"
+                                                id="github"
+                                            >
+                                                <path
+                                                    d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://ms-dashboard-frontend.netlify.app/"
+                                            target="_blank"
+                                        >
+                                            <svg
+                                                viewBox="0 0 30 30"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <g
+                                                    clip-path="url(#clip0_78_11)"
+                                                >
+                                                    <path
+                                                        d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                    />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_78_11">
+                                                        <rect
+                                                            width="30"
+                                                            height="30"
+                                                        />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="content__title-text">
+                                    <h4>Pulpit administratora</h4>
+                                </div>
+                            </div>
+                            <div class="content__main-text">
+                                Pulpit administratora zawierający sekcje z
+                                różnymi typami danych: pulpit zbiorczy, tabele z
+                                danymi użytkowników, wykresy, formularz
+                                dodania/edycji profilu, kalendarz, sekcja FAQ.
+                            </div>
+                            <div class="content__tags">
+                                <div class="tag">Frontend</div>
+                                <div class="tag">React.js</div>
+                                <div class="tag">MUI</div>
+                                <div class="tag">Nivo charts</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project__container fade-in">
+                        <div class="project__content">
+                            <div class="content__title">
+                                <div class="content__title-icons">
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://github.com/marcinsuski/Fitmapp"
+                                            target="_blank"
+                                            ><svg
+                                                width="22"
+                                                height="22"
+                                                viewBox="0 0 30 30"
+                                                id="github"
+                                            >
+                                                <path
+                                                    d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="content__title-icon">
+                                        <a
+                                            href="https://fitmapp.netlify.app/"
+                                            target="_blank"
+                                        >
+                                            <svg
+                                                viewBox="0 0 30 30"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <g
+                                                    clip-path="url(#clip0_78_11)"
+                                                >
+                                                    <path
+                                                        d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                    />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_78_11">
+                                                        <rect
+                                                            width="30"
+                                                            height="30"
+                                                        />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="content__title-text">
+                                    <h4>Fitmapp</h4>
+                                </div>
+                            </div>
+                            <div class="content__main-text">
+                                Aplikacja do wgrywania treningów i umieszczania
+                                na mapie dzięki Leaflet Library. Akpa
+                                wykorzystuje geolokalizację i localStorage do
+                                zachowania treningów (backend do realnego
+                                użytku).
+                            </div>
+                            <div class="content__tags">
+                                <div class="tag">HTML</div>
+                                <div class="tag">Css</div>
+                                <div class="tag">Javascript</div>
+                                <div class="tag">Leaflet</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project__container fade-in">
+                        <div class="project__content">
+                            <div class="content__title">
+                                <div class="content__title-icons">
+                                    <div class="content__title-icons">
+                                        <div class="content__title-icon">
+                                            <a
+                                                href="https://github.com/marcinsuski/time-tracking-dashboard"
+                                                target="_blank"
+                                                ><svg
+                                                    width="22"
+                                                    height="22"
+                                                    viewBox="0 0 30 30"
+                                                    id="github"
+                                                >
+                                                    <path
+                                                        d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="content__title-icon">
+                                            <a
+                                                href="https://fluffy-semolina-35226f.netlify.app"
+                                                target="_blank"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 30 30"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <g
+                                                        clip-path="url(#clip0_78_11)"
+                                                    >
+                                                        <path
+                                                            d="M18.75 0C17.7129 0 16.875 0.837891 16.875 1.875C16.875 2.91211 17.7129 3.75 18.75 3.75H23.5957L11.8008 15.5508C11.0684 16.2832 11.0684 17.4727 11.8008 18.2051C12.5332 18.9375 13.7227 18.9375 14.4551 18.2051L26.25 6.4043V11.25C26.25 12.2871 27.0879 13.125 28.125 13.125C29.1621 13.125 30 12.2871 30 11.25V1.875C30 0.837891 29.1621 0 28.125 0H18.75ZM4.6875 1.875C2.09766 1.875 0 3.97266 0 6.5625V25.3125C0 27.9023 2.09766 30 4.6875 30H23.4375C26.0273 30 28.125 27.9023 28.125 25.3125V18.75C28.125 17.7129 27.2871 16.875 26.25 16.875C25.2129 16.875 24.375 17.7129 24.375 18.75V25.3125C24.375 25.8281 23.9531 26.25 23.4375 26.25H4.6875C4.17188 26.25 3.75 25.8281 3.75 25.3125V6.5625C3.75 6.04688 4.17188 5.625 4.6875 5.625H11.25C12.2871 5.625 13.125 4.78711 13.125 3.75C13.125 2.71289 12.2871 1.875 11.25 1.875H4.6875Z"
+                                                        />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath
+                                                            id="clip0_78_11"
+                                                        >
+                                                            <rect
+                                                                width="30"
+                                                                height="30"
+                                                            />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content__title-text">
+                                    <h4>Dashboard do zarządzania czasem</h4>
+                                </div>
+                            </div>
+                            <div class="content__main-text">
+                                Frontent dla dashboardu do śledzenia czasu na
+                                bazie lokalnego pliku JSON do wyświetlania
+                                danych i przełączania różnych widoków czasu.
+                                Wykonane w Vanilla JavaScript.
+                            </div>
+                            <div class="content__tags">
+                                <div class="tag">HTML</div>
+                                <div class="tag">Css</div>
+                                <div class="tag">Javascript</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact section -->
+            <section class="contact" id="contact">
+                <div class="contact__title">
+                    <h3>Kontakt:</h3>
+                </div>
+                <div class="contact__container slide-in">
+                    <div class="contact__info slide-in from-left">
+                        <div class="contact__info-wrapper">
+                            <div class="contact__info-text">
+                                Dziękuję za poświęcony czas!
+                                <br />
+                                <br />
+                                Obecnie szukam możliwości dołączenia do nowego
+                                zespołu kreatywnych projektantów i programistów.
+                                <br />
+                                Jeśli uważasz, że moglibyśmy sobie pomóc,
+                                zadzwoń do mnie lub skontaktuj się za
+                                pośrednictwem formularza/e-maila.
+                            </div>
+                            <div class="contact__info-address">
+                                <img
+                                    src=".././src/images/contact-pin.svg"
+                                    alt="address"
+                                    width="22px"
+                                    height="22px"
+                                />
+                                Kraków
+                            </div>
+                            <div class="contact__info-tel">
+                                <img
+                                    src=".././src/images/contact-tel.svg"
+                                    alt="tel number"
+                                    width="22px"
+                                    height="22px"
+                                />
+                                +48 502 204 651
+                            </div>
+                            <div class="contact__info-mail">
+                                <svg
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 30 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M2.8125 3.75C1.25977 3.75 0 5.00977 0 6.5625C0 7.44727 0.416016 8.2793 1.125 8.8125L13.875 18.375C14.543 18.873 15.457 18.873 16.125 18.375L28.875 8.8125C29.584 8.2793 30 7.44727 30 6.5625C30 5.00977 28.7402 3.75 27.1875 3.75H2.8125ZM0 10.3125V22.5C0 24.5684 1.68164 26.25 3.75 26.25H26.25C28.3184 26.25 30 24.5684 30 22.5V10.3125L17.25 19.875C15.9141 20.877 14.0859 20.877 12.75 19.875L0 10.3125Z"
+                                        fill="#8DE6FF"
+                                    />
+                                </svg>
+
+                                suski.marcin@gmail.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__form slide-in from-right">
+                        <div class="container">
+                            <form class="form">
+                                <!-- Honeypot -->
+                                <input
+                                    name="_honeypot"
+                                    type="text"
+                                    style="display: none"
+                                />
+                                <!-- disable captcha -->
+                                <input
+                                    type="hidden"
+                                    name="_captcha"
+                                    value="false"
+                                />
+                                <div class="form-group name">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        class="input-control"
+                                        id="name"
+                                    />
+                                    <label for="name" class="label"
+                                        >Imię*</label
+                                    >
+                                    <div class="error"></div>
+                                </div>
+                                <div class="form-group email">
+                                    <input
+                                        type="text"
+                                        name="email"
+                                        class="input-control"
+                                        id="email"
+                                    />
+                                    <label for="email" class="label"
+                                        >e-mail*</label
+                                    >
+                                    <div class="error"></div>
+                                </div>
+                                <div class="form-group phone">
+                                    <input
+                                        type="tel"
+                                        name="tel number"
+                                        class="input-control"
+                                        id="phone"
+                                    />
+                                    <label for="phone" class="label"
+                                        >telefon (opcjonalny)</label
+                                    >
+                                    <div class="error"></div>
+                                </div>
+
+                                <div class="form-group message" placeholder=" ">
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                    ></textarea>
+                                    <label for="message" class="label"
+                                        >Wiadomość*</label
+                                    >
+                                    <div class="error"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input
+                                        type="submit"
+                                        name="submit"
+                                        id="submit"
+                                        value="wyślij"
+                                        class="contact-btn"
+                                    />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="submit-after hidden">
+                <div class="prompt-message">
+                    <h3 class="prompt-title">Dziękuję</h3>
+                    <p class="prompt"></p>
+                    <button class="close">Zamknij</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="socials">
+                <a
+                    href="https://www.facebook.com/marcin.suski.35"
+                    target="_blank"
+                    ><svg viewBox="0 0 30 30" fill="none">
+                        <g clip-path="url(#clip0_47_106)">
+                            <path
+                                d="M29.5312 15C29.5312 6.97266 23.0273 0.46875 15 0.46875C6.97266 0.46875 0.46875 6.97266 0.46875 15C0.46875 22.2527 5.78262 28.2645 12.7295 29.3555V19.2006H9.03809V15H12.7295V11.7984C12.7295 8.15684 14.8975 6.14531 18.218 6.14531C19.8082 6.14531 21.4711 6.42891 21.4711 6.42891V10.0031H19.6383C17.8336 10.0031 17.2705 11.1234 17.2705 12.2725V15H21.3006L20.6561 19.2006H17.2705V29.3555C24.2174 28.2645 29.5312 22.2527 29.5312 15Z"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_47_106">
+                                <rect width="30" height="30" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="https://github.com/marcinsuski" target="_blank"
+                    ><svg
+                        width="30"
+                        height="22"
+                        viewBox="0 0 30 30"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M10.0343 23.2852C10.0343 23.4023 9.89516 23.4961 9.71976 23.4961C9.52016 23.5137 9.38105 23.4199 9.38105 23.2852C9.38105 23.168 9.52016 23.0742 9.69556 23.0742C9.87702 23.0566 10.0343 23.1504 10.0343 23.2852ZM8.15323 23.0215C8.11089 23.1387 8.23186 23.2734 8.41331 23.3086C8.57056 23.3672 8.75202 23.3086 8.78831 23.1914C8.8246 23.0742 8.70968 22.9395 8.52823 22.8867C8.37097 22.8457 8.19556 22.9043 8.15323 23.0215ZM10.8266 22.9219C10.6512 22.9629 10.5302 23.0742 10.5484 23.209C10.5665 23.3262 10.7238 23.4023 10.9052 23.3613C11.0806 23.3203 11.2016 23.209 11.1835 23.0918C11.1653 22.9805 11.002 22.9043 10.8266 22.9219ZM14.8065 0.46875C6.41734 0.46875 0 6.63867 0 14.7656C0 21.2637 4.22177 26.8242 10.252 28.7812C11.0262 28.916 11.2984 28.4531 11.2984 28.0723C11.2984 27.709 11.2802 25.7051 11.2802 24.4746C11.2802 24.4746 7.04637 25.3535 6.15726 22.7285C6.15726 22.7285 5.46774 21.0234 4.47581 20.584C4.47581 20.584 3.09073 19.6641 4.57258 19.6816C4.57258 19.6816 6.07863 19.7988 6.90726 21.1934C8.23185 23.4551 10.4516 22.8047 11.3165 22.418C11.4556 21.4805 11.8488 20.8301 12.2843 20.4434C8.90323 20.0801 5.49194 19.6055 5.49194 13.9688C5.49194 12.3574 5.95161 11.5488 6.91935 10.5176C6.7621 10.1367 6.24798 8.56641 7.07661 6.53906C8.34073 6.1582 11.25 8.12109 11.25 8.12109C12.4597 7.79297 13.7601 7.62305 15.0484 7.62305C16.3367 7.62305 17.6371 7.79297 18.8468 8.12109C18.8468 8.12109 21.756 6.15234 23.0202 6.53906C23.8488 8.57227 23.3347 10.1367 23.1774 10.5176C24.1452 11.5547 24.7379 12.3633 24.7379 13.9688C24.7379 19.623 21.1754 20.0742 17.7944 20.4434C18.3508 20.9062 18.8226 21.7852 18.8226 23.1621C18.8226 25.1367 18.8044 27.5801 18.8044 28.0605C18.8044 28.4414 19.0827 28.9043 19.8508 28.7695C25.8992 26.8242 30 21.2637 30 14.7656C30 6.63867 23.1956 0.46875 14.8065 0.46875ZM5.87903 20.6777C5.8004 20.7363 5.81855 20.8711 5.92137 20.9824C6.01815 21.0762 6.15726 21.1172 6.23589 21.041C6.31452 20.9824 6.29637 20.8477 6.19355 20.7363C6.09677 20.6426 5.95766 20.6016 5.87903 20.6777ZM5.22581 20.2031C5.18347 20.2793 5.24395 20.373 5.36492 20.4316C5.46169 20.4902 5.58266 20.4727 5.625 20.3906C5.66734 20.3145 5.60685 20.2207 5.48589 20.1621C5.36492 20.127 5.26815 20.1445 5.22581 20.2031ZM7.18548 22.2891C7.08871 22.3652 7.125 22.541 7.26411 22.6523C7.40323 22.7871 7.57863 22.8047 7.65726 22.7109C7.73589 22.6348 7.6996 22.459 7.57863 22.3477C7.44556 22.2129 7.26411 22.1953 7.18548 22.2891ZM6.49597 21.4277C6.39919 21.4863 6.39919 21.6387 6.49597 21.7734C6.59274 21.9082 6.75605 21.9668 6.83468 21.9082C6.93145 21.832 6.93145 21.6797 6.83468 21.5449C6.75 21.4102 6.59274 21.3516 6.49597 21.4277Z"
+                        />
+                    </svg>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/marcin-suski/"
+                    target="_blank"
+                    ><svg viewBox="0 0 30 30" fill="none">
+                        <g clip-path="url(#clip0_47_110)">
+                            <path
+                                d="M8.71518 26.2499H2.49554V8.72451H8.71518V26.2499ZM5.60201 6.33389C3.61317 6.33389 2 4.89248 2 3.15225C2 2.31635 2.3795 1.51469 3.055 0.923617C3.73051 0.332547 4.6467 0.000488281 5.60201 0.000488281C6.55732 0.000488281 7.47351 0.332547 8.14901 0.923617C8.82452 1.51469 9.20402 2.31635 9.20402 3.15225C9.20402 4.89248 7.59018 6.33389 5.60201 6.33389ZM31.9933 26.2499H25.7871V17.7187C25.7871 15.6854 25.7402 13.078 22.5533 13.078C19.3196 13.078 18.8241 15.287 18.8241 17.5722V26.2499H12.6112V8.72451H18.5763V11.1151H18.6634C19.4937 9.73818 21.5221 8.28506 24.5482 8.28506C30.8429 8.28506 32 11.912 32 16.6229V26.2499H31.9933Z"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_47_110">
+                                <rect width="30" height="30" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+            <div class="copyright">
+                © 2023, wszystkie prawa zastrzeżone | Design by Marcin Suski
+            </div>
+            <div class="mail">
+                <div class="mail-link">
+                    <a href="mailto:suski.marcin@gmail.com"
+                        >suski.marcin@gmail.com</a
+                    >
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

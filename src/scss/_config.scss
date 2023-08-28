@@ -1,0 +1,73 @@
+$bg-color: hsla(218, 76%, 10%, 1);
+$bg-glassy: hsla(0, 0%, 0%, 0.6);
+$pale-orange: hsl(25, 100%, 94%);
+$grayish-blue: hsl(220, 14%, 75%);
+$text-header: hsl(0, 0%, 100%);
+$text-primary: hsl(193, 100%, 78%);
+$text-link: hsl(164, 95%, 43%);
+$text-error: hsl(0, 100%, 63%);
+$button: hsl(164, 95%, 43%);
+$button-bg: hsla(0, 0%, 0%, 1);
+$button-bg-hover: hsla(164, 95%, 43%, 0.15);
+$preview-bg: hsla(193, 29%, 14%, 0.6);
+$preview-border:  hsl(193, 100%, 78%);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+a,
+.link {
+    text-decoration: none;
+    color: $text-link;
+}
+
+
+html {
+    background-color: hsl(222, 62%, 15%);
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: $text-header;
+
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(20deg, #fffdfd, #8fe7ff,  #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: clamp(0.9rem, 6vw + 0.2rem, 2.5rem);
+}
+
+h3 {
+    font-size: clamp(0.8rem, 4vw + 0.2rem, 1.8rem);
+    font-weight: 500;
+}
+
+h4 {
+    font-size: clamp(0.5rem, 1.5vw + 0.2rem, 1.6rem);
+    font-weight: 500;
+}
+
+
+@mixin media-md {
+    @media screen and (min-width: 640px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
