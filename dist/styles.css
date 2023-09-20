@@ -39,7 +39,23 @@ h4 {
   font-size: clamp(0.5rem, 1.5vw + 0.2rem, 1.6rem);
   font-weight: 500;
 }
-
+.section-parent {
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  }
+  .section-parent button {
+   
+    margin: 10px 0;
+   width:200px;
+    }
+    
 body {
   height: 100%;
   font-family: "Josefin Sans", sans-serif;
@@ -1638,3 +1654,4 @@ footer .mail a:hover {
   }
   
 }/*# sourceMappingURL=styles.css.map */
+/* .project__preview-container-buttons buttons */
